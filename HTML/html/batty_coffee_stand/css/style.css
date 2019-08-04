@@ -32,7 +32,7 @@ text-sub{
 .header-navigation {
   width:100%;
   background-color:#fff;
-  padding:20px;
+  padding:20px 0;
   
 }
 
@@ -56,7 +56,8 @@ text-sub{
 .text-title{
   font-size:24px;
   font-weight:bold;
-  margin:0 0 20 0;
+  margin-top:0;
+  margin-bottom:20px;
   
 }
 .card-contents{
@@ -65,4 +66,46 @@ text-sub{
 margin-bottom:20px;
 background-color:#fff;
   
+}
+
+.left-contents{
+  width:600px;
+  margin-right:20px;
+  float:left;
+}
+.right-contents{
+  width:300px;
+  float:left;
+}
+
+.infomation-list{
+  list-style-type:none;
+  padding-left:0;
+}
+.infomation li{
+  margin-bottom:10px;
+
+}
+
+.staff-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.staff-list {
+  width: 150px;
+  margin-right: 35px;
+  float: left;
+}
+.staff-list:last-child {
+  margin-right: 0;
+}
+.staff-image {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.staff-name {
+  text-align: center;
 }
