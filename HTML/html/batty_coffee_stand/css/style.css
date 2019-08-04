@@ -65,6 +65,7 @@ text-sub{
   display: block;
 margin-bottom:20px;
 background-color:#fff;
+
   
 }
 
@@ -73,12 +74,14 @@ background-color:#fff;
   margin-right:20px;
   float:left;
 }
-.right-contents{
+.right-contents
+{
   width:300px;
-  float:left;
+  float:right;
 }
 
 .infomation-list{
+  
   list-style-type:none;
   padding-left:0;
 }
@@ -108,4 +111,15 @@ background-color:#fff;
 }
 .staff-name {
   text-align: center;
+}
+
+.copyright{
+  color:#777;
+  text-align:center;
+}
+
+footer{
+  display:block;
+  clear:both;
+  
 }
